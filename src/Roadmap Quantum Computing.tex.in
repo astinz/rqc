@@ -1,0 +1,1539 @@
+% This is a Roadmap Quantum Computing English translation LaTeX input file.  (Version of 10 December 2021.)
+%
+\documentclass[17pt,a4paper,twoside,twocolumn, english]{report}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+\usepackage{multicol}
+\usepackage{eso-pic,graphicx}
+% \usepackage[top=2cm, bottom=2cm, outer=0cm, inner=0cm]{geometry}
+
+\begin{document}
+
+\onecolumn
+
+\begin{huge} 
+\textbf{\textcolor{white}{\scalebox{1.3}{@HEADING@}}}
+\end{huge}
+
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{asset/image/header.jpg}}
+\clearpage
+
+% Table of contents
+\tableofcontents
+\newpage
+\pagecolor{cyan}
+\section{@SEC0@}
+\textcolor{white}{
+@SEC0_P0@\\\\
+}
+\textcolor{white}{
+@SEC0_P1@\\\\
+}
+\textcolor{white}{
+@SEC0_P2@\\\\
+}
+\textcolor{white}{
+@SEC0_P3@
+}
+
+\newpage
+\pagecolor{white}
+@SEC0_P4@
+
+\newpage
+\section{@SEC1@}
+\textbf {@SEC1_P0@} \\\\
+@SEC1_P1@
+\begin{multicols}{2}
+\begin{itemize}
+\item @SEC1_I0@
+
+\item @SEC1_I1@
+
+\item @SEC1_I2@
+
+\end{itemize}
+
+\end{multicols}
+
+\newpage
+\twocolumn
+@SEC1_P2@\\
+\\\\\\
+@SEC1_P3@\\
+
+\begin{itemize}
+\item @SEC1_I3@\\
+
+With the hubs we will:
+
+\begin{itemize}
+
+\item competencies distributed quickly and
+unbureaucratic-ally bundle science and
+business into quantum computing,
+
+\item Generate technology competition and
+focus,
+
+\item Germ cells for industrial system integrators create,
+
+\item Build and integrate start-ups,
+
+\item strong positions in the field of intellectual property (IP)
+build,
+
+\item ensure sovereign access to components and systems and
+
+\item attract and promote talent.\\\
+
+\end{itemize}
+
+With the competence networks that accompany the hubs
+are established to facilitate the activities of the To connect
+hubs and to cover overarching topics
+to address, we will:\\
+
+\item ensure access to digital and technological infrastructure,
+
+\item create comprehensive training structures and
+
+\item Develop applications by accessing
+
+\item Hardware available today and tomorrow
+
+\item long-term and adequately financed hubs and
+competence networks
+
+\item competence-oriented decision-making authority establish
+
+\item the establishment of an inter agency umbrella
+organization - promoting the German Quantum
+Community DQG. The DQG should not be an
+authority or organization with budget responsibility,
+but a new, light one Instrument for comprehensive
+orchestration of the measures. You should have
+strategic skills regularly revise the road-map
+respectively update and the efficient Implementation of
+the overall strategy “quantum computers made in
+Germany ”from a single source.\\
+
+\vfill % spread
+The world is not waiting for Germany.
+We have to start now.
+
+\end{itemize}
+
+\newpage
+\onecolumn
+\section{Motivation and vision}
+\textbf{The first quantum computers are already able to solve simple problems, but still suffer from a high
+probability of errors. A so-called quantum advantage - i.e. the solution of an application-relevant
+problem with an efficiency that a classic computer can never achieve - will only be achieved in the
+medium or long term. Today, providers of quantum computing systems are almost exclusively located in
+North America, closely followed by Chinese government initiatives. There are other strong groups in
+Japan and Australia, among others. Therefore, we in Germany and Europe have to set up a suitable
+structure in the short term (in the next five years) in order to develop, build and operate a complete
+quantum computer system with quantum applications and thus ensure sovereign access to this
+potentially disruptive technology. Quantum computer systems are to be understood holistically. This
+means that both hardware and software down to the application level are integral parts of such an
+overall system. In addition, researchers and users should have access to existing systems in order to pick
+up speed and continuously compare expectations with regard to quantum computing with reality.
+}
+\newpage
+\twocolumn
+Our milestone: internationally competitive
+Quantum calculator with at least 100 individually
+controllable qubits and scaling potential
+500 qubits. Medium term (in five to ten years)
+must Germany in association with the European
+Partners will be able to find a suitable application at the
+forefront of international competition
+Build and operate quantum computers.\\
+
+Our goal: to demonstrate a quantum advantage
+for practice-relevant applications. The long-term
+The aim (at least ten to fifteen years) is
+error-correcting quantum computer systems for
+Solving a universal class of problems with
+exponential quantum advantage available too
+place. Germany should play a leading role in this
+take and share with the European
+Partners for strategic independence
+cover the relevant part of the value chain.\\
+
+An important part of the added value will accrue from
+applications of the quantum computer. On the
+Application-specific preliminary stages (NISQ systems,
+quantum simulators) must therefore be developed on the
+way to an error-correcting quantum computer system
+be a first in the short and medium term
+to achieve scientific and, above all, commercial benefits.
+This added value and recovery
+stand out in three areas in particular:\\\\
+
+\begin{itemize}
+\item Manufacture and operation of quantum
+computers, to both users and suppliers of
+Enable component access,
+
+\item Supply of hardware and manufacture of
+Software tools with the establishment of a
+holistic quantum ecosystem as well
+
+\item Application development to the potential
+of the quantum computer profitably right
+from the start.\\
+
+
+\end{itemize}
+
+In addition, quantum technologies can be used
+to create a wide range of potentials in the areas
+Open up communication and sensors that
+work with
+are closely linked to quantum computing.
+The vision and the declared goal for Germany
+and Europe must be:
+
+\begin{itemize}
+\item leading supplier and user of quantum
+computing hardware and software and
+\item Factory supplier of the world for quantum
+computing too will,
+\item Quantum computing for innovative products
+and To use services,
+\item to be in and out of the market quickly,
+\item the technological sovereignty in the field of
+To secure quantum computing as part of
+quantum technologies as well
+\item train skilled workers and secure talent
+\end{itemize}
+
+\newpage
+\onecolumn
+\section{Challenges and solutions}
+\textbf{Although some of the numerous technology platforms are currently well ahead in development,
+In the long term, it is not yet possible to predict which technology will be the most effective. That is why it
+also applies for a long time
+View of maintaining an openness to technology for new findings from basic research. Hereinafter
+the most common technology platforms that we will use in the near future as
+see potentially relevant for Germany.
+}
+\begin{multicols}{2}
+Superconducting Circuits\\
+Systems based on superconductors count worldwide
+to the leading platforms with system sizes of
+about 50 qubits. Especially the big American ones
+Tech companies Google and IBM have set standards here
+set. In 2018, Google was able to work on a 53 qubit\\
+
+Processor demonstrating quantum superiority for an
+academic example. Germany is currently in
+The field of superconducting qubits is not leading, there
+are
+but serious activities in the German
+Research landscape.\\
+
+\end{multicols}
+
+\newpage
+\twocolumn
+Ions\\
+Quantum computers based on ion traps are
+next to the superconducting approaches the furthest
+developed technology platform. With similar
+System sizes and gate quality as with the superconductors
+can already be performed with quantum simulations. The
+cornerstone for the development was made
+initially laid using large Paul traps,
+in the meantime, however, scalable chip-based approaches
+are being pursued. Germany is already in this field
+well positioned for years.\\\\
+
+Neutral atoms\\
+Neutral atoms form another interesting platform for
+realizing a quantum computer. Included
+are atoms in optical tweezers or optical
+Trapped in bars. Up to a hundred qubits can be created in
+this way
+realize in flexible three-dimensional structures. The gate
+grades are still behind those of the
+Ion trap quantum computer back, it could be here
+but recently made significant progress and also
+larger systems can be implemented here. International
+The first start-ups are already active in this area.
+Germany is well positioned here in terms of research.\\\\
+
+Spin qubits\\
+Spin-based approaches can be eliminated through
+imperfections
+for example in diamonds or quantum dots in
+Realize semiconductor structures. In terms of their
+technological maturity, these systems are currently well
+behind
+the ion trap and superconductor approaches. They contain
+only a few qubits, but often with excellent gate quality. As a
+huge advantage, especially with
+silicon-based approaches are very similar
+to classic hardware, so that the experience of the
+Semiconductor industry for scaling these systems
+can be used. Germany has both in the area of
+Nitrogen vacancy centers as
+good research groups even with semiconductor-based
+approaches.\\\\
+
+Photons\\
+Photonic approaches use the
+Quantum states of light and
+integrated photonics to universal, measurement-based
+quantum processors and application-specificTo implement methods (boson sampling). Currently
+Boson sampling with 76 photons was demonstrated
+and thus quantum superiority for an academic one
+Example shown. A special feature is the possibility
+the seamless integration into quantum communication
+networks. When it comes to scaling, the know-how of
+integrated photonics plays an important role. It
+there are prominent startups in North America, in
+Germany is internationally competitive
+Basic research.\\\\
+
+Beyond the technology platforms, it will be crucial to have skills
+in quantum information theory, algorithms, software and
+applications
+to expand. Here Germany is in research and
+Industry in an excellent starting position.\\\\
+
+\subsection { Status quo and challenges}
+It follows from the various possible approaches
+the uncertainty as to which technology it ends up being
+Will make races. Also are for businesses
+both the time horizon and the specific benefit
+potential industry-relevant applications difficult
+assessable. The consequence is an even more cautious one
+Commitment - on both the provider and the user side. As of
+today there are in Europe
+nobody who approaches the development of quantum
+computers holistically and with the actors
+from the USA and China on an equal footing
+could act. In order to successfully implement the “quantum
+computer made in Germany strategy”,
+we therefore master some challenges.\\\\
+\textbf{Especially small and medium-sized Germans}
+\newpage
+\onecolumn
+\begin{multicols}{2}
+Companies (SMEs) fill international leaders
+Positions in many basic quantum computing technologies.
+However, a holistic one is missing
+Ecosystem that encompasses all levels of innovation and
+Value chain includes, research and
+Development of cutting edge technology supports and
+at the same time ensures rapid market transfer with valueadding applications and products. in the
+North American area have the risk takers
+Start-up culture and the much larger state
+Incentivization and market formation to a variety of
+Quantum start-ups. One is missing in Germany
+comparable environment that enables cooperation between
+and the transfer of know-how from science
+in the economy nationwide strengthens a start-up\\\\
+
+Promotes culture and facilitates its financing.
+Efforts to date in Europe are too fragmented, too slow and too little
+business-oriented.
+Infrastructure projects such as the construction of
+Clean rooms and production are very difficult and long-term in the
+existing funding landscape
+to implement.\\\\
+
+Also the position of Germany and Europe is with
+Intellectual property (IP) in the area of quantum computing weak. A
+solid base for backup
+the freedom to operate is missing. There is also only
+restricted access to quantum computers, especially at the
+hardware level, so that a targeted
+and user-oriented development of applications and 
+components as well as a validation of the potential are hardly possible
+\end{multicols}
+
+\newpage
+\twocolumn
+Another challenge is the trans and
+interdisciplinary development of skills and
+Skills, especially in physics,
+Engineering, computer science, and math - both
+in the basics as well as in the application. On sides
+For universities, this is made more difficult on the one
+hand\\
+Not very flexible structures in the area of subject
+boundaries and personnel recruitment (including
+research groups or professorships), on the other hand
+by an increasing proportion of short-term
+Third-party funded projects as opposed to one
+long-term core funding for structural
+Facilities. The strong one is also problematic
+Talent drain, particularly to the US. Germany
+and Europe are in competition for the best minds
+and companies back.\\\\
+
+
+Based on the analysis of the status quo, we determine:\\\\
+\begin{itemize}
+\item In Germany are to a considerable extent relevant
+skills and know-how available. However, these
+are widely distributed and not yet economically
+oriented. Neither individual actors nor existing
+consortia are now able to provide the To tackle
+the development, construction and operation of
+quantum computers. In order to be successful,
+we need to use our forces in a holistic way
+Bundling ecosystems and coordinating activities.
+To this end, strong European partners involved
+and national with European measures are
+coordinated.
+
+\item It is currently not foreseeable which technology
+platform will ultimately prevail. Different
+approaches must therefore initially be carried out
+in parallel be followed up before further focusing
+the resources can be carried out in a wellfounded manner.\\\\
+\end{itemize}
+
+This results in the following recommendations for action:\\\\
+
+\begin{itemize}
+\item the establishment of hubs with the aim
+of realizing complete quantum
+computer systems based on at least
+one technology platform. In addition,
+the essential economic, university and
+scientific competence carriers involved
+in the areas of hardware and software the. The hubs are intended to offer high-quality training and
+further education, promote the generation of intellectual property,
+establish and integrate start-ups,
+Industry and science quantum computers
+provide and technology-specific
+Develop applications together. they form
+the nucleus for future system integrators
+and providers as well as points of contact for a
+European cooperation.
+\begin{itemize}
+\item the establishment of intermediate network structures
+(competence networks), the specific cross-hub topics in
+transverse Fields such as quantum software and applications,
+systemically relevant technological infrastructure as well
+Address training and further education and link the activities
+of the hubs
+\item the establishment of an interagency Umbrella organization -
+the German Quantum Community (DQG) - for selection,
+evaluation for gradual concentration and coordination the
+overall strategy with the involvement of a European
+committee of experts responsible for all evaluation questions\\\\
+
+\end{itemize}
+\end{itemize}
+Auf diese Weise schaffen wir eine hohe Sichtbarkeit
+und feste Anlaufstellen, um auf dem Weg weitere
+Akteure einzubinden. Gleichzeitig bieten wir sowohl
+der Industrie und insbesondere Start-ups (Zulieferer,
+Systemintegratoren, Lösungsanbieter, Software- und
+Anwendungsanbieter und Nutzer) als auch der Wissenschaft
+(Forschungsgruppen) einen niederschwelligen
+Zugang zu Forschungs- und Fertigungsinfrastruktur. Alle
+Maßnahmen sind generell mit fließendem
+Übergang von staatlicher Förderung und Verantwortung zu
+marktwirtschaftlichem Antrieb und zunehmender
+Industriebeteiligung zu gestalten.
+
+\newpage
+\onecolumn
+\section {
+Orchestrate competition and
+Quantum computer systems
+realize
+}
+\begin{multicols}{2}
+\subsection {Vision}
+Germany must connect to leading quantum
+computing providers and international ones
+Achieve competitiveness by 2025 if possible.
+On the way to a long-term quantum advantage
+in the case of practical problems, preliminary
+stages such as
+NISQ computers or application-specific quantum
+computers/simulators create an initial added
+value
+enable. For a targeted and user-oriented
+development of this, the earliest possible access for
+users and component providers is important.
+\vfill\null
+\columnbreak
+
+\subsection{Concrete goals}
+To achieve this, we recommend:\\
+\begin{itemize}
+\item the fastest possible construction and operation
+of competitive quantum computer systems in
+Germany taking into account
+of hardware, algorithms, software and
+applications
+\item a long-term stabilization of the Development
+through an effective technology-transfer and the settlement of start-ups,
+combined with a focus on the most promising approaches to the
+sustainability of the
+Structure and the associated added value
+to ensure
+
+\end{itemize}
+
+\end{multicols}
+\newpage
+\twocolumn
+\subsection{Recommendations for action and
+competitive criteria}
+We recommend a competition to build quantum computer
+systems in focused structures -the hubs - to orchestrate. The
+choice of hubs is intendedwith the participation of an
+external, with European,internationally recognized experts
+who are linked to the umbrella organization Strategy
+Advisory Board based on objective criteria. These are also
+used for regular, annual Evaluation in order to achieve a
+further concentration on the most promising technology
+platforms and hubs in the medium term. Also the
+competence networks for infrastructure, application and
+training must be established in a competitive process and
+specified for the respective area Fulfill criteria.\\\\
+
+\subsubsection{Classification of the technology platforms according
+to challenges: "quantum advantage" or "scalability"
+}
+To have a focus and at the same time a certain
+\vfill\null
+Enabling technology openness is due to different stages of
+development a differentiation in the technology goals
+necessary. Every Platform as part of a hub should therefore
+when submitting an application according to their
+technological maturity classify and regarding the
+international status position based on the following
+parameters:\\\\
+\begin{itemize}
+\item Number of qubits
+\item Set and type of tags or interactions /Operations
+\item Quality of operations (errors per tag or per time unit)
+\item Connectivity
+\item proven potential for error correction or error avoidance\\\\\\
+
+\end{itemize}
+
+The "quantum advantage" category promises within
+specific problems over a period of five years faster and
+more efficient than existing classic ones Computer solve.
+You have to do this right from the start the implementation
+of quantum algorithms for the physical platform used
+(international) have been proven. Within five years,
+applicants must have a quantum advantage demonstrate a
+quantum computer system of the hub. The system should
+be based on at least 500 qubits be designed and at least 100
+individually have addressable qubits.\\\\
+
+In the “Scalability” category, the same Period of at least the
+implementation of Quantum algorithms shown on a
+quantum computer system of the hub as well as an
+ambitious one Given an outlook on competitive
+performance and scalability. The Proof of a successful
+entanglement of two Qubits on the technology platform
+used.\\\\
+
+\subsubsection{Software and applications}
+Software and applications must provide all functionalities in
+order for the im the objectives mentioned in the previous
+section to enable:
+
+\newpage
+\onecolumn
+\begin{multicols}{2}
+
+\begin{itemize}
+\item practical and industrial applicability that offers a
+quantum advantage
+\item Development of algorithms and informationtheoretical concepts with provable Quantum
+advantage
+\item Development methodology, development tools and
+cloud execution environment. An evaluation is based
+on the number of users of the cloud environment or
+use of the Development tools mainly through
+external ones Users
+\item  clearly defined interfaces to third party providers To
+allow technology access to the various technology
+levels (e.g. pulse level, Firmware, middleware,
+application level). the Evaluation is based on the
+optimized utilization of hardware resources
+\item Access to applications and software via (cloud-based)
+interfaces (in the sense of platform/software-as-aservice - PaaS / SaaS) to a broad basis for application
+development
+\end{itemize}
+
+\columnbreak
+
+\subsubsection{Infrastructure}
+Access to the necessary infrastructure such as production
+lines or cloud access is a must either already exist or during
+the Project can be built. The infrastructure must also be
+used by other interested parties like industry and research
+groups to be fair and provided in transparent terms (Open
+Innovation and Testing Labs).\\\\
+
+\subsubsection{Economic implementation}
+An IP development strategy must be presented, whose
+Implementation is assessed based on the number of
+patents accepted. A concept is also needed
+for the active promotion of company spin-offs, for example
+through start-up centers or incubators, as well as for
+establishing a system provider.
+The share of private capital in the form of own
+contributions to the total funds also serves as an evaluation
+criterion for the applications and enables under
+among other things an intrinsic focus on relevant
+Fields of application.
+
+\end{multicols}
+
+\newpage
+\onecolumn
+% an image goes here, single column
+%switch column to 2
+\begin{multicols}{2}
+In addition, it must be shown how technology sovereignty
+is promoted and - depending on the Technology status -
+to be achieved in the medium term can. This also includes
+naming the necessary ones and critical components and
+competencies that are available in Germany and Europe
+or must be built up (see Page 28 ff.). In particular, it must
+be shown how a possible, very critical use of funds for
+services from non-European providers as a direct hub
+competitor continuously is reduced. Here is a regular
+(annual) Review and approval after assessment by the
+Strategy Advisory Board is required.\\\\
+
+\subsubsection{Education and Society}
+The training strategy is also assessed from skilled workers to
+further training opportunities in the or for the economy as
+well as for Public relations with the aim of long-term
+Establishment of quantum technologies in society. That also
+requires a concept for Responsible Research and Innovation
+(RRI) respectively Technology assessment. Furthermore, the
+promotion of the next generation in science and business
+evaluate and present a sustainable strategy for equality and
+diversity.\\\\
+
+In order to establish an efficient transfer from basic research
+and applied science to industrial applications in the medium
+term, must be the experts from science and Research can be
+involved at an early stage without losing the excellent
+research by building new ones to weaken structures.
+\vfill
+\columnbreak
+
+\subsubsection{General requirements}
+The usual requirements for competitive tenders such as
+clearly defined goals and milestones, risk management,
+efficient use of resources and diversity are a matter of course
+not to be fulfilled in this document continued.\\\\
+
+Furthermore\\\\
+
+\begin{itemize}
+\item must have the competence regarding scientific
+and economic preparatory work and expertise be
+assessed, with particular focus on the
+Management structure of the hubs or
+competence networks.
+\item  structures must be created and financial and
+human resources are made available to create
+connection points for other hubs, to enable
+projects and competence networks.
+\item the individual components of the hubs
+(hardware / software, various platforms, etc.) or
+competence networks, their dependencies and
+connections must be clearly worked out and be
+justified by the goals you have set yourself.
+\end{itemize}
+\end{multicols}
+
+\newpage
+\onecolumn
+\section{A holistic one
+Create an ecosystem}
+\begin{multicols}{2}
+\subsection{Our vision for a successful Ecosystem}
+To build quantum computer systems that offer a quantum
+advantage in practice-relevant applications, is to be seen as
+a Moonshot project that does not match the previous
+structures and funding measures the required speed and the
+necessary Chances of success is achievable. To turn a
+successful moon landing into an economic success to make
+and Germany in this future field Positioning at the top
+international is one to establish a complete, holistic
+ecosystem, that includes all stages of the innovation and
+value chain. This has to be based on the particular strengths
+Building Germany: the excellent universities and research
+institutions as well as the very broad Range of innovative
+companies that both as Act as a technology provider as well
+as a user.\\\\
+\vfill\null
+\columnbreak
+
+The promise of quantum computing will be best fulfilled by
+those economies that scientific excellence based on
+outstanding Technology platforms and with high Speed
+applications and products up can establish itself in the
+market. So it works in the same way about technology
+leadership, application competence and implementation
+speed.
+
+\end{multicols}
+
+\newpage
+\onecolumn
+\begin{multicols}{2}
+An ecosystem designed for this must be flexible enough to
+do justice to the extremely dynamic and disruptive
+landscape of quantum computing will. It must support the
+development of cutting-edge technology and, at the same
+time, the rapid one Market transfer with value-creating
+applications and Products. In particular, there must be
+easy access to capital-intensive infrastructure and
+guarantee the emerging quantum computer technology
+platforms at all levels.\\
+
+The topological side of the ecosystem, the network, must
+facilitate the exchange and transfer of know-how from the
+science in the economy nationwide strengthen and promote
+a start-up culture. By Small and medium-sized companies
+in particular have to create public demand as a supplier of a
+whole range of products being constructed. This spectrum
+should range from basic technologies to quantum
+applications, complement industry as a provider and user of
+quantum technology and establish a German / European
+quantum computer user platform. This requires structures,
+the work-flows for rapid Enable the development, operation
+and application of the technologies and also through
+standardization Ensure interoperability.
+
+\vfill
+\columnbreak
+
+The ecosystem must be \textbf{open enough} to existing
+Technologies like the big platforms in the US or to integrate
+China into the value chain and quick to use. At the same
+time it must develop more competitive national respectively
+of European quantum computer systems.\\\\
+
+Accompanying are cross-location, \textbf{novel to develop
+training and further education formats} in order to to
+secure the need for workers in the long term and to support
+the formation of a value-adding quantum community\\\\
+
+\subsection{Our goal: a competitive one
+Ecosystem}
+
+Building a functioning and international competitive
+ecosystem needs a (market) Perspective as well as long-term
+and flexible at the same time Developed funding measures in
+order to be able to tackle high-risk technological
+developments. It has to be the goal be that company despite
+potentially high risks enter this area and start-ups an optimal
+one Maintain growth environment. This requires visibility of
+both current and future activities Opportunities and added
+value. The under “Our way: the Effective bundling of forces-
+
+\end{multicols}
+% an image goes here
+
+
+\newpage
+\onecolumn
+\begin{multicols}{2}
+in hubs and competence networks ”the structure
+explained in detail Hubs and competence networks
+support this targeted through:\\\\
+\begin{itemize}
+\item high visibility in the sense of lighthouse
+projects, 
+\item the bundling of competencies, the initiation
+of Cooperation between science and
+business and the support of an effective and
+fast technology transfers,
+\item creating permanent contact points for more
+To involve actors such as start-ups or SMEs
+and to constantly expand the network and
+deepen cooperation,
+\item clearly regulated and fair access modalities
+to infrastructures for industry (suppliers,
+system integrators, solution providers and
+users) as well as also for research groups (for
+example in the form of so-called "Open
+Innovation and Testing Labs "or cooperative
+technology parks) as well as
+\end{itemize}
+\columnbreak
+\begin{itemize}
+\item{an acceleration and simplification of
+procedures in the field of research funding}
+\end{itemize}
+
+Specifically, this means:\\\\
+
+\begin{enumerate}
+\item \textbf{Long-term hubs with participation science and business}
+with sufficient financial resources drive the necessary
+Developments on all levels of a quantum computing
+system advance in parallel, build system competence,
+provide the necessary training and Infrastructure ready
+and create the basis for resilient value chains for systemcritical ones Components and basic technologies.
+
+\item Competence networks with also sufficient financial
+resources address specific Questions and challenges in
+transverse fields such as quantum software and
+Applications, systemically important technological
+Infrastructure as well as training and further education.
+Specific examples are given on page 24 ff. presented.
+These networks also enable the integration of existing
+technologies, act as a visible contact point for interested
+companies and thus promote the development a 
+German/European quantum computer user
+platform.
+
+\end{enumerate}
+
+\end{multicols}
+
+% an image goes here...
+
+\newpage
+\twocolumn
+In this way we support the development of a
+technologically broad supplier, provider, software and
+user industries and establish resilient value chains for
+system-critical ones Components and basic technologies
+as the basis a technological sovereignty of Germany
+and Europe. The construction of a hardware and software
+industry and total system providers are central success
+factors for a commercially successful implementation of
+quantum computing. Ultimately, it's about Germany and
+Europe an industrial landscape with a critical mass for a
+transition from “Push to Market” to “Market Pull "to
+form.
+
+\newpage
+\onecolumn
+\section{Our way: the forces at work
+bundle in hubs and competence
+networks}
+% an image goes here...
+\textbf{To the central tasks - the construction of a quantum computing system, its operation and its provision via
+cloud services as well as the construction of a holistic ecosystem for the quantum computing enable, we
+recommend, as already mentioned, the creation of central nodes in the form of hubs that through
+competence networks for infrastructure, training and application for the use of synergies as well
+addressing transverse topics are linked. There should be duplications between Competence networks are
+avoided. In particular, the Expert Council recommends activities by the federal states to be involved in the
+hubs and competence networks.
+}
+
+\newpage
+\twocolumn
+\subsection{Quick start and staying power}
+The world is not waiting for Germany. The proposed
+measures must take effect quickly. Hence the organization
+proposed here Designed to work with existing instruments
+can be implemented immediately (similar to, for example,
+the Measures of the top or excellence clusters) to then to
+consolidate into longer-term structures after an initial start
+up phase.\\\\
+
+The first step is a bid for hubs and Competence networks
+taking into account prepared according to the specifications
+of the Expert Council and by the responsible ministries in the
+first quarter of 2021 should be carried out. In parallel, the one
+below must described umbrella organization to be established
+to accompany and supervise the selection with it the hubs can
+start operating in 2021. The further steps can then follow,
+such as such as the establishment of the hub association and
+the consolidation of the entire structure by 2024.
+
+\subsection{Hubs: selection, structure, properties and content}
+
+In a competitive process, \textbf{some a few hubs} are selected. It
+doesn't go in first and foremost about the competition of
+individual actors, it's about bringing the best players
+together to form hubs. On the one hand, this ensures the
+necessary focus in Germany and, on the other hand, a
+critical one Measures for international competitiveness and
+Technology leadership. The selection and evaluation criteria
+are shown on page 15 ff.\\\\
+
+A hub contains at least one technology platform for the
+construction and operation of a quantum computer system
+and provides the necessary software levels (Control software,
+firmware via middleware up to Application level) ready for
+operation and access and enables access for users via a
+Cloud service in cooperation with the user competence
+network and provides access to system-relevant
+infrastructure and a training structure secure. This avoids
+multiple developments and paves the way for a quantum
+software industry. Depending on existing in Germany /
+Europe A hub can be localized or organized in a delocalized
+manner. To strengthen the In line with the idea of
+competition, several hubs can be added to a technology
+platform provided that clear differentiation features are
+available and complete quantum computer systems are 
+addressed in each case. To be strived for an amalgamation
+of the best and an increasing focus on the most promising
+approaches. For the emergence of innovations a local
+proximity of the actors involved can be advantageous.\\\\
+
+In addition, each hub includes a \textbf{steering committee with
+strategic competence and responsibility} (perspective
+decision-making power), which consists of Is composed of
+representatives from both science and industry.\\\\
+
+A hub has access to or creates the necessary infrastructure
+to provide the hardware and software. In addition, it
+makes a contribution to the training of the required
+experts, among other things by imparting knowledge in
+hardware and Software (develop common language) as
+well by building up assessment competencies for Possible
+applications. This is coordinated through the respective
+competence networks. The hub also acts as an \textbf{incubator
+for spin-offs and start-ups} in close cooperation with
+Industry and existing offerings. The goal is Creating an
+ecosystem in which start-ups and potential system
+integrators can arise or grow. The hubs, which are initially
+organized on a decentralized basis, are to be used for
+system integration increasingly also be spatially focused.\\\\
+
+
+\textbf{Long-term secured funding for the hubs
+is indispensable} (similar to, for example, the
+Promotion of clusters of excellence) in order to ensure
+sustainable, effective action. In addition to basic financing,
+this is intended to be a flexible instrument
+funding selected by the hub to carry out external
+applications with competitive
+Allocation should be provided (similar to, for example, the
+Funding of clusters of excellence or in the program
+Twenty20 of the BMBF). A financial contribution from
+the industry is fundamentally a prerequisite for 
+
+\newpage
+\onecolumn
+\begin{multicols}{2}
+a long-term alignment of the activities must the
+development of quantum computer systems in suitable
+operator models, which are to be worked out within the hub
+structures.
+
+\subsection{Competence networks}
+
+The main task of the competence networks is to address
+overarching thematic priorities
+and the activities of the hubs among themselves as well
+with industry and external users and
+Bringing educational institutions together. The
+competence networks should also be based on the hubs
+selected in a competitive process will. The selection and
+evaluation criteria are listed on page 15 ff. There should be
+duplications can be avoided between competence networks.
+In particular, we recommend activities of the countries in to
+involve the competence networks.\\\\
+\columnbreak
+
+A competence network coordinates one at a time cross-hub
+subject area, especially in the key fields of training,
+infrastructure and Applications, and provides starting
+points for this for the hubs as well as the necessary financial
+and human resources available. It bundles the expertise
+available in Germany / Europe and Competence and acts as
+the first point of contact for external users and stakeholders.
+In addition, the network provides coordinated standards
+their creation, guarantees compliance with recognized
+Quality criteria and provides in coordination with the
+Strategic Advisory Board ensures that there are no
+unwanted ones Duplication comes.\\\\
+
+The competence networks have their own project funds to
+carry out complementary development activities in in close
+coordination with the hubs. she operate along self-defined
+milestones as well the objectives of a steering committee. In
+doing so, the most relevant for the respective network will be
+Actors from business, science and the public Hand as well as
+representatives of the hubs.
+
+\end{multicols}
+\twocolumn
+\newpage
+They promote the involvement of startups and companies,
+for example in the development of software tools,
+consulting services, Applications and training programs,
+and ensure that these are on the infrastructures of the hubs
+can access.\\\\
+
+\textbf{Examples of competence networks}\\\\
+The three following competence networks are presented as
+an example and can be agreed upon be strategically
+completed with the DQG.\\\\
+
+\begin{enumerate}
+\item Quantum Computing User Skills
+Network\\\\
+
+The Quantum Computing User Skills
+Network should promptly use the already
+existing possibilities of Investigate
+quantum computing and these
+technologies at high speed for applications
+in the Making industry usable in a valueadding way. The network should perform
+the following tasks:
+
+\begin{itemize}
+\item Identification of use cases in the user industry
+and assessment of the implications for the
+respective Industry or the respective market
+\item rapid deployment of a low-threshold Access
+to quantum computers and quantum inspired
+hardware for research and industry, initially
+on the basis of internationally available
+Quantum computing systems
+\item establishment of an independent assessment
+competence for the user industry, the
+questions about Performance, added value,
+development effort, trends, etc. answered
+\item Provision of methodological knowledge,
+optimization of software algorithms and
+creation of Development tools for quantum
+computing applications and the creation of a
+corresponding one User platform including
+the cloud environment for access to the
+quantum computers
+\item Cooperative implementation of
+practical pilot projects as a basis for
+the development of related Business
+models by user companies
+\end{itemize}
+
+%an image goes here...
+
+\item Competence network quantum infrastructure\\\\
+The competence network quantum infrastructure is supposed to
+the infrastructure integrated in the hubs such as the production
+of superconducting chips, atom trap chips, quantum photonics
+and specialized Coordinate measurement environments and
+merge them into an overarching measure. The network
+has three main goals:
+
+\begin{itemize}
+\item Cross-hub coordination of infrastructure and their
+adaptation to the specific quantum technology
+requirements and identification missing system-critical
+infrastructure and its Supplement or substitution in Europe
+by establishing standards
+\item Establishing uniform and open access models, for example
+in the form of “Open Innovation and Testing Labs “or
+cooperative technology parks with staff for the operation of
+the systems and Manufacture of prototypes according to
+specification in order to Start-ups, SMEs and researchers
+have easy access to high-investment infrastructure enable
+\item Establishment of a platform for a thematic and
+Interdisciplinary community at the interface between
+manufacturing and measurement technology, Universities,
+research institutions and Industry - especially to the others
+Quantum technology topics
+\end{itemize}
+\end{enumerate}
+\newpage
+
+\textbf{Competence network quantum education}\\\\
+The competence network quantum education aims to
+Coordinate and merge educational activities of the
+hubs. The certification of educational offers
+and the provision of high quality teaching materials
+set quality and quality criteria and create networking.
+The four main goals are:\\\\
+
+\begin{itemize}
+\item \textbf{Training of specialists} through new
+interdisciplinary training structures at
+universities
+\item \textbf{Acquisition of skills and further training} for
+Industry and business through the mediation of
+specific expertise and a realistic one assessment
+competence
+\item \textbf{Creating acceptance} in society through Public
+relations and transparent information on the
+potentials and limits of the Quantum
+technologies especially in the context of school
+education. This should include the Developing
+negative emotions such as fears and avoid
+uncertainties.
+\item \textbf{Establishment of guidelines} and rules for
+technology assessment of quantum technologies
+through stakeholder dialogue with research,
+business and politics
+\end{itemize}
+
+\subsection{Umbrella organization: Germans Quantum
+Community (DQG)}
+
+A lean and unbureaucratic umbrella organization should
+be cross-hub and cross-competence networks ensure the
+implementation of the overall strategy, by:
+
+\begin{itemize}
+\item advises and supports the public sector in the
+implementation of the road-map,
+\item a cross-departmental competitive process orchestrated, in
+which they are responsible for all procurement and
+evaluation issues through internationally recognized Experts
+from science and Industry is advised,
+\item by the Strategy Advisory Board described below
+Evaluated progress of the funded hubs and competence
+networks, corrective measures recommends and a
+gradual focus on few promising hubs and contained
+therein Carries out approaches,
+\item initiates the creation of missing structures and
+\item the coordination and cooperation between the Hubs and
+the competence networks.
+\end{itemize}
+
+This requires an independent, competency-based
+target structure, consisting of:
+\begin{itemize}
+\item \textbf{Supervisory board:} The federal ministries
+themselves assume a supervisory function. The
+supervisory board appoints the strategy advisory
+board. It takes place no influence on the
+content.
+\item \textbf{Strategy Advisory Board:} The Advisory Board
+consists of national and European,
+internationally designated Experts from science
+and Business. He has the strategic competence
+to control the structure formation, tenders for
+to recommend further strategic projects of the
+hubs and competence networks, the scientific
+and technical progress against the background
+of the international state of research to evaluate,
+overarching issues in To take up the area of IP
+management to secure the formation of resilient
+value chains and a global control function of the
+activities of the take over hubs and competence
+networks.
+\item \textbf{Hub and Competence Network Association:}
+The Association is made up of representatives
+and representatives of the hubs and competence
+networks. In cooperation with the Strategy
+Advisory Board, it promotes the necessary
+synergies, including through the Participation
+of own representatives in the Strategy Advisory
+Board, but to avoid Conflicts of interest without
+a decision-making role within the umbrella
+organization.
+\item Office: The office supports the operational
+implementation by those involved Federal
+Ministries, accompanied the measures and
+supports the strategy advisory board.
+
+\end{itemize}
+
+\newpage
+\onecolumn
+% an image goes here...
+\begin{multicols}{2}
+\subsection{Financial instruments}
+The organization proposed here is immediately with
+existing instruments can be implemented to then after an
+initial start-up phase in the longer term to be consolidated.\\\\
+
+In the first step, the hubs and competence networks are set
+up in a competitive process selected for funding. One is
+planned \textbf{integrated promotion of scientific and industrial
+actors together with selected European partners}. For this
+are in a certain way Provision of earmarked funds in the
+hubs. The award of the projects is proposed within the hub.\\\\
+
+Role model for the flexibility in the concrete
+implementation are existing examples such as the Clusters
+of Excellence of DFG or the top clusters of the BMBF. This
+requires first an adaptation of the existing financing
+instruments and later the development dedicated
+instruments. The entrepreneurial risk for industry and
+especially for startups should according to the proximity to
+industrialization and the development risk through \textbf{adapted funding rates} must be
+taken into account. In addition, the state should use the
+instrument of public procurement by awarding research and
+development contracts Use protection for particularly highrisk work.\\\\
+
+In addition, there are opportunities for \textbf{public Private
+partnerships (PPP)} at the hub level implemented. This also
+includes the possibilities for mixed financing with private
+financing sources such as venture capital (Venture capital).\\\\
+
+
+In addition, measures such as \textbf{start-up grants / EXIST
+programs} and financial support are to be provided
+the willingness to found start-ups for the establishment and
+maintenance of the patent portfolio
+promote the quantum computing ecosystem.
+
+\end{multicols}
+
+\newpage
+\onecolumn
+\section{Expand competencies, components make available, intellectual property protection}
+% an image goes here...
+\begin{multicols}{2}
+\subsection{Strategic structure of Components}
+The analysis under "Challenges and Solutions" shows: Germany is currently unable to
+central elements of a quantum computer without
+To develop or even to develop suppliers and the short-term
+purchase of components from European or non-European
+manufacturers
+to produce. To change this, follow these steps
+necessary
+
+\begin{itemize}
+\item Identification of the system-relevant components and
+most important producers in Germany and Europe
+and the decision as to which of these components are
+critical to the system and must therefore be developed
+promptly in Germany or Europe
+\item Incentives for research and development system-relevant
+components
+\item any protection of the relevant IP
+\item System integration or commercialization by start-ups,
+existing SMEs or Large corporations
+\end{itemize}
+Dealing with system-critical, neutral or
+trivial components must be regulated in a binding manner
+be to in Germany and Europe sovereignty
+to be able to achieve.
+\begin{itemize}
+\item System-critical components: System-critical
+components should be manufactured in Germany
+if possible, but they can also be manufactured in
+Europe will. If this is not yet possible, you can they
+are temporarily bought in (under clear defined
+rules for non-European suppliers). At the same
+time, the hubs have to set up a roadmap that 
+describes how their own production is established or existing
+actors for production of the components are to be incentivized.
+\item \textbf{Neutral components:} Neutral components should come from
+Europe, but they can too outside of Europe. Should it do not
+make sense these components in Europe to produce its own
+production based on If patents are not possible or alternative
+technologies are not promising, partnerships should be
+formed.
+\item \textbf{Trivial components} are also allowed in the long term be
+purchased from non-European countries. Trivial components
+are those that are not critical for the manufacture of the
+quantum computer or for which there are alternatives too Loss
+of a producer due to, for example, export restrictions.
+
+\end{itemize}
+
+The components are divided into three categories in
+the hubs
+or competence networks and must be coordinated
+with the DQG Strategy Advisory Board
+to be in the parent
+Quantum computing strategy
+Germany and Europe to be classified.\\\\
+
+\subsubsection{Objective} 
+It must be the goal in Germany/Europe to achieve sovereignty and to
+develop and/or to develop the
+necessary talents keep. This should be
+done by:
+
+\begin{itemize}
+\item stronger interlocking of Hardware
+and software development in
+situations that Promise
+advantages. There should be
+interfaces between application
+software as well as hardware and
+firmware are defined to to enable
+long-term independent
+development of application
+software.
+\item Independence from non-European manufacturers for systemcritical components. 
+These should be in Germany, but can also
+be made in Europe.
+\item Establishment of long-term partnerships with component
+manufacturers from Europe and Europe Countries
+
+\end{itemize}
+
+\subsubsection{Recommendations for action}
+
+Deficits must especially be scalable in the areas Hardware
+development, software development, system integration, IP
+generation and competence building /-conservation be
+compensated.
+
+\textbf{Structure of system-relevant components in
+Germany / Europe}
+\begin{itemize}
+\item Identification, deficit analysis and
+classification of system-relevant components
+through hubs / Competence networks in
+cooperation with the Strategy Advisory Board
+of DQG
+\item Development of the production of system-relevant
+components in the hubs / competence networks (with
+Potential for spin-off) in Germany:
+\begin{itemize}
+\item Dedicated orders to industry or research
+institutions to focus on To incentivize
+quantum technologies and ensure
+economic profitability
+\item Focus on business development /
+exploitation strategies
+\end{itemize}
+\item Establishing a cooperation with European Producers of
+system-relevant components and non-European producers
+for trivial ones Components and establishment of guidelines
+for working with international Manufacturers
+\end{itemize}
+
+\textbf{Strategic structure of Competencies\\\\}
+To meet the foreseeable high future demand to ensure skilled workers have structures for
+interdisciplinary training and education as well Building competencies are created. Important
+is primarily the further training of actors in industry and
+business, in particular of
+Decision-makers. Currently missing
+it despite largely existing technological
+Basic skills and components of staffing and scaling skills for
+the transition from basic research to application.\\\\
+
+\textbf{Objective\\\\}
+
+The aim is to find the necessary talent in Germany build,
+recruit, and keep. This works through the targeted
+development of competencies for the development of
+quantum hardware, components, quantum information
+theory and quantum algorithms, for software, applications
+and for System integration.\\\\
+
+\textbf{Recommendations for action\\\\}
+We recommend building talent and
+Coordinated competencies in Germany / Europe
+through the competence network quantum education
+(see page 26) by the following measures:
+\end{multicols}
+\onecolumn
+
+\newpage
+\twocolumn
+\begin{itemize}
+\item \textbf{Creation of interdisciplinary university Quantum
+technology centers} beyond the usual Faculty boundaries
+through additional professorships and research groups, special
+course and Courses offered at universities and (subject)
+Universities, training of doctoral candidates in Graduate
+schools as well as training and further education by teachers as
+multipliers
+\item \textbf{Targeted exchange and transfer of know-how from science
+to industry} by networking universities and research
+institutions with industry. this happens for example through
+shared use of the “quantum infrastructure” competence
+network, the establishment of endowed professorships and
+flexible ones Mobility programs between universities and
+industry ("Industry sabbaticals") as well as the Incentivizing
+start-ups to be built up, for example through quantum
+computing entrepreneur study modules.
+\end{itemize}
+\section{Intellectual Property (IP)}
+An overarching strategy on intellectual property is intended
+to promote the position of Germany and Europe in the
+Strengthen the race for the quantum computer. Europe
+currently has 797 patents (excluding UK with 376),
+410 of them in Germany, far behind the USA
+1,990 or China with 5,164 patents (as of 2020
+including patents up to and including 2018). A
+strengthening of the IP position is therefore
+essential to be a serious candidate on
+to be able to participate in worldwide competition.\\\\
+
+In addition, due to the complexity of the quantum
+computer, successful implementation in Germany and
+Europe is not through individual companies, but
+expected in close cooperation with several industrial
+partners together with research. An IP environment
+is therefore necessary for both the cooperation
+as well as the generation of IP promoted.\\\\
+
+
+In order to achieve this, favorable framework conditions are
+required for an increased transfer of knowledge
+from research to industry to promotion
+of IP generation and the simplification of cooperation
+within Germany / Europe.
+
+% an image goes here...
+
+\subsubsection{Recommendations for action to strengthen the IP
+position Germany and Europe}
+\begin{enumerate}
+\item \textbf {IP regulations for startups\\\\}
+Objective: a uniform spin-off policy from the
+Science in Industry.
+\begin{itemize}
+\item Standardization and acceleration of IP transfers from
+universities and research institutes to the industry
+\item Incentivization of risk capital-based investments through
+uniformly regulated exclusive Use of the IP by founders or
+transfer to start-ups on fair terms. Technology sovereignty
+must here guaranteed.
+\item Spin-off support through the existing ecosystem of
+incubators and accelerators
+\item Orientation of existing infrastructures such as TechTransfer
+offices at universities to international ones Models to enable
+quick and easy transfer
+\end{itemize}
+\item \textbf{Freedom to operate and patent monitoring\\\\}
+Goal: a comprehensive picture of the patent landscape
+of quantum computing to get an overview of systemcritical patents.
+\begin{itemize}
+\item Task of the respective hub or respectively Competence
+network
+\item Consideration of the patent situation in the strategic
+promotion of research and development. Identification of
+where it makes sense alternative approaches need to be
+explored and where to work with existing ones Is
+inevitable for patent holders.
+\end{itemize}
+\item \textbf{Patent pool\\\\}
+Objective: to simplify cooperation between several patent
+holders.
+\begin{itemize}
+\item In order to prevent blockages between different market
+participants, a license-free or a licensed patent pool can be
+established. Such patent pools are basically also for users
+open outside Germany or Europe.
+\item The exact execution of a patent pool must be individual
+and in coordination with the antitrust law take place. The
+pros and cons of such a patent pool must therefore be
+carefully weighed up on a case-by-case basis.
+\end{itemize}
+\item \textbf{Standardization\\\\}
+Goal: Set standards from Europe in the quantum domain,
+to strengthen the position in the worldwide race and
+to benefit from existing structures.
+\begin{itemize}
+\item For efficient commercialization and worldwide
+Positioning is important as early as possible To initiate
+standardization processes. It is there makes sense to
+participate in existing standardization organizations. These
+are along with the experts from the hubs and Competence
+networks are able to set such standards to establish.
+\end{itemize}
+\end{enumerate}
+
+\section{Expert advice}
+\onecolumn
+\textbf{In order to develop a common national strategy for quantum computing, the federal government has
+commissioned a committee of high-ranking experts from business and science who
+to name central challenges in this field and recommendations for action for the future
+To pronounce the procedure. This committee has drawn up this “Quantum Computing Road-map”.\\\\}
+\twocolumn
+\textbf{\mbox{Prof. Dr. Stefanie Barz}\\}
+\textit{University of Stuttgart\\\\}
+
+\textbf{\mbox{Dr.-Ing. Michael Bolle}\\}
+\textit{Robert Bosch GmbH\\\\}
+
+\textbf{\mbox{Prof. Dr. Tommaso Calarco}\\}
+\textit{Research Center Jülich and University of Cologne\\\\}
+
+
+\textbf{\mbox{Prof. Dr. Ignacio Cirac}\\}
+\textit{Max Planck Institute for Quantum Optics\\\\}
+
+\textbf{\mbox{Prof. Dr. Stefan Filipp}\\}
+\textit{Technical University of Munich and Walther
+Meißner Institute\\\\}
+
+
+\textbf{\mbox{Magdalena Hauser}\\}
+\textit{Parity Quantum Computing GmbH\\\\}
+
+
+
+\textbf{\mbox{Dr.-Ing. E. h. Peter Leibinger}\\}
+\textit{TRUMPF GmbH + Co. KG\\\\}
+
+
+\textbf{\mbox{Prof. Dr. Dr. h. c. Frank Leymann}\\}
+\textit{University of Stuttgart\\\\}
+
+\textbf{\mbox{Prof. Dr. Claudia Linnhoff-Popien}\\}
+\textit{QAR-Lab, LMU München\\\\}
+
+
+\textbf{\mbox{Dr. Sebastian Luber}\\}
+\textit{Infineon Technologies AG\\\\}
+
+\textbf{\mbox{Dr. Florian Neukart}\\}
+\textit{Volkswagen AG\\\\}
+
+\textbf{\mbox{Dr. Alexander Regnat}\\}
+\textit{kiutra GmbH\\\\}
+
+
+\textbf{\mbox{Prof. Dr. Piet O. Schmidt}\\}
+\textit{Physikalisch-Technische Bundesanstalt and Leibniz University Hannover\\\\}
+
+
+\textbf{\mbox{Prof. Dr. Christine Silberhorn}\\}
+\textit{University of Paderborn\\\\}
+
+\textbf{\mbox{Prof. Dr. Andreas Tünnermann}\\}
+\textit{Fraunhofer Institute for Applied Optics and Precision Mechanics
+IOF and Friedrich Schiller University Jena\\\\}
+
+\textbf{\mbox{Dr. Horst Weiss}\\}
+\textit{BASF SE\\\\}
+
+\newpage
+\onecolumn
+\section{Imprint}
+\textbf{Editor\\}
+VDI Technologiezentrum GmbH\\
+VDI-Platz 1\\
+40468 Düsseldorf\\\\
+\textbf{Responsible for the content:\\}
+The “Quantum Computing” Expert Council, represented by the speakers\\
+Prof. Dr. Stefan Filipp, Technical University of Munich / Walther Meißner Institute of the Bavarian Academy of Sciences Dr.-Ing. E. h. Peter\\
+Leibinger, TRUMPF GmbH + Co. KG\\\\
+\textbf{Editorial staff\\}
+VDI Technologiezentrum GmbH\\\\
+\textbf{Design and implementation:\\}
+Familie redlich AG agency for brands and communication, Berlin\\
+COMPACT MEDIA Agency for Communication GmbH, Berlin\\\\
+\textbf{Pressure\\}
+BMBF\\\\
+\textbf{Photo credits\\}
+Title: Adobe Stock / Bartek; P. 4: Astrid Eckert / Munich, TRUMPF; P. 6: Research Center Jülich / Ralf-Uwe Limbach; P. 8: kiutra GmbH / Max\\
+Kühn; P. 9: Adobe Stock / sdecoret; P. 10: Adobe Stock / kilukilu; P. 11: Adobe Stock / Astibuag; P. 12: Bavarian Academy of Sciences / Kai Neunert;\\
+P. 14: Research Center Jülich / Ralf-Uwe Limbach; P. 15: Adobe Stock / dekdoyjaidee;\\
+P. 16: Adobe Stock / industrieblick; P. 17: Adobe Stock / metamorworks; P. 18: Adobe Stock / metamorworks; P. 19: Adobe Stock / Nichizhenova\\
+Elena; P. 20: Adobe Stock / metamorworks; P. 22: kiutra GmbH / Max Kühn; P. 24: Bavarian Academy of Sciences / Kai Neunert; P. 25: University of\\
+Paderborn / Besim Mazhiqi; P. 27: Research Center Jülich / Ralf-Uwe Limbach;\\
+P. 28: Physikalisch-Technische Bundesanstalt; P. 29: Adobe Stock / Anatoly Stojko; P. 30: kiutra GmbH / Max Kühn; P. 31: University of\\
+Paderborn / Besim Mazhiqi\\
+
+\newpage
+\ % empty page
+
+
+\end{document}

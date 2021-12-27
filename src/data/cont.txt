@@ -1,0 +1,130 @@
+[[HEADING]]
+ROADMAP QUANTUM COMPUTING
+
+[[SEC_0]]
+Preface
+
+[[SEC0_P0]]
+Quantum technology has enormous potential for science, economy and society.
+Quantum computing is of particular importance here: It is not just a fascinating
+idea to solve tasks in the near future that even the most powerful
+supercomputers fail to solve today. It is also a “must do” for a leading
+technology location. For our high-tech industry, access to this technology can
+be essential.
+
+[[SEC0_P1]]
+Quantum computers offer the potential to simulate highly complex systems for
+the development of new types of batteries or for research into medical active
+ingredients. In addition, quantum computers can enable far-reaching increases in
+efficiency in numerous relevant applications, from the optimization of traffic
+flows or production processes to model calculations in climate research.
+
+[[SEC0_P2]]
+It is therefore obvious that quantum technology is associated with enormous
+dynamics in the global innovation competition. Germany and Europe are
+called upon to significantly intensify their efforts in the coming years. Dealing
+with the subject of quantum computing is definitely a question of
+technological sovereignty in global competition with strong competitors,
+especially in Asia and the USA.
+
+[[SEC0_P3]]
+What Germany can do is concentrate on its strengths and strategically develop
+them. Perhaps the most important strength lies in an integrated landscape of
+science and industry with large and small companies. Hardly anywhere else in the
+world does such a closely interlinked chain exist, from basic research to the
+development of key technology in many "hidden champions" through to
+industrial application. However, we must not rest on that. Above all, we must
+increase the speed and consistency with which research results are brought onto
+the market. With full awareness of the existing advantages of the “German way”,
+there is still a certain “German dilemma” in terms of technology transfer.
+
+[[SEC0_P4]]
+With this in mind, a council of experts from research and industry came together
+and for the first time presented a broad-based road map on quantum technology.
+We want to outline the common path and set a signal for an even closer, marketoriented alliance of business, science and politics. It is a truism: If we want to
+attract the best minds and bring strong teams together in the global competition
+with some state-supported actors, we need attractive, high-performance
+structures - and action from a single source.
+The challenges we face are therefore enormous. But we are now on our way and
+bring together players from different industries who are committed to a goal with
+major implications for the German economy. In this context, we would like to
+thank the responsible ministries for their trust in and support of this initiative.
+
+[[SEC1]]
+Executive Summary
+
+[[SEC1_P0]]
+The first quantum computers are already able to cope with simple tasks, and a multitude of
+The company sees great economic potential in this area. This potential ranges from efficient
+algorithms for applications through components to the construction and operation of complete systems.
+Worldwide hasthe competition between the various technology platforms began. Here pioneers have established
+themselves mainly due to the advances made by companies from North America. The winner on however, the
+long term is not yet certain. To turn Germany into a worldwide one in the field of quantum computing to bring a
+leading position and, together with its European partners, technological sovereignty in order to guarantee longterm, it is important to bundle forces now and to drive forward the system integration of selected technology
+platforms in a focused manner.
+
+[[SEC1_P1]]
+Our goals:
+
+[[SEC1_I0]]
+short-term: create low-threshold access to today's
+technology; a comprehensive ecosystem and focused
+structures in five years build up. The milestone: an
+internationally competitive quantum computer with at
+least 100 individually controllable qubits. The system
+should be scalable to at least 500 qubits.
+
+[[SEC1_I1]]
+medium term: demonstrate a quantum advantage for
+practical applications in five to ten years. After ten
+years, we want to be at the forefront of international
+competition with superior technology.
+
+[[SEC1_I2]]
+Long-term: Provide an error-corrected system for
+solving a universal class of problems in ten to fifteen
+years. We want to achieve broad benefits for the economy
+and society in this way.
+
+[[SEC1_P2]]
+The expert advice comes after a detailed analysis
+the actual situation to the result that Germany over
+excellent academic skills as well
+a wealth of potential users of the technology
+but today there is no single actor
+and there is also no scientific association that
+the development of a quantum computer system
+could take over. The competencies are distributed
+and there are gaps in scalable hardware development,
+system integration, and the software stack
+and the IP generation. Further challenges are
+educational measures for development
+and maintaining competence in business and science.
+There are also deficits in terms of availability
+digital and technological infrastructure and it
+the instruments and framework conditions for
+rapid technology transfer from research
+into industry.
+
+[[SEC1_P3]]
+In order to move forward here as
+quickly as possible, the Expert Council
+recommends:
+
+[[SEC1_I3]]
+the immediate competitive build-up of Hubs and
+competence networks. Companies we have to involve
+them right from the start in order to guarantee the
+necessary economic orientation and create incentives
+for private investment. Universities and research
+institutions must also act as scientific experts be
+integrated. Hubs have the vertical one Building a
+quantum computing system from technology
+platforms to software to the goal. Hubs are semiautonomous and therefore agile even medium-term
+goals against which they are measured will. Achieving
+these own goals serves as a Based on a further focus
+on the most promising hubs or technology platforms
+after approx. Five years. Goes along with it an
+increasing focus in the medium term for system
+integration with construction of the corresponding
+Infrastructure.
